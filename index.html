@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>CSS Paths</title>
+<link href='css/style.css' rel='stylesheet' type='text/css'/>
+<script src='js/ext.js' type='text/javascript' language='javascript'></script>
+</head>
+<body>
+<div id='header'>Image Gallery Slide Show</div>
+<div id='thumb'>
+<img src='img/1.jpg' onclick="doShift('b',this.src);"/>
+<img src='img/2.jpg' onclick="doShift('b',this.src);"/>
+<img src='img/3.jpg' onmouseover="doShift('b',this.src);"/>
+<img src='img/4.jpg' onmouseout="doShift('b',this.src);"/>
+</div>
+<div id='buttons'>
+<input type='button' value='Zoom IN' name='zoom' onclick="doZoom('b','+')"/>
+<input type='button' value='Normal' name='zoom' onclick="doZoom('b','0')"/>
+<input type='button' value='Zoom OUT' name='zoom' onclick="doZoom('b','-')"/>
+</div>
+<div id='main'>
+<img src='img/1.jpg' id='b'/>
+</div>
+</body>
+</html>

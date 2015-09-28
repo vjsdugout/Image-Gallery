@@ -1,0 +1,56 @@
+body{
+margin:0px;padding:0px;
+background:url(../img/wood2.jpg);
+}
+div#header{
+background:black;
+color:#fff;
+height:90px;
+text-align:center;
+font-size:28px;
+font-family:happy customer;
+letter-spacing:2px;
+//margin-top:50px;
+line-height:80px;
+}
+div#thumb,div#buttons,div#main{
+text-align:center;
+}
+div#thumb img{
+width:210px;
+height:110px;
+margin:15px 0px;
+cursor:pointer;
+}
+div#thumb img:hover{
+-moz-transform : scale(1.5);
+-webkit-transform : scale(1.5);
+transform : scale(1.5);
+-moz-transition:all 1.5s ease-in;
+-webkit-transition:all 1.5s ease-in;
+transition:all 1.5s ease-in;
+}
+div#buttons input{
+padding:10px 25px;
+font-weight:900;
+font-family:bree serif;
+background:#000;
+color:#fff;
+font-size:20px;
+cursor:pointer;
+}
+div#main img{
+width:600px;
+height:300px;
+margin:20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
